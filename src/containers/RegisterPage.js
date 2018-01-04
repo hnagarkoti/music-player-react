@@ -163,7 +163,7 @@ class RegisterPage extends Component {
                     errorMessages={['this field is required']}
                     value={this.state.user.password}
                 />
-                <RaisedButton label="Login" type="submit" primary={true} style={styles.loginBtn} />
+              <RaisedButton label="Register" type="submit" primary={true} style={styles.loginBtn} />
             </ValidatorForm>
             </Paper>
 
